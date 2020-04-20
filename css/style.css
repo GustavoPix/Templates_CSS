@@ -1,0 +1,477 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
+  margin: 0;
+  padding: 0;
+  min-width: 1px;
+  min-height: 1px;
+  font-style: none;
+  text-decoration: none;
+  font-weight: normal;
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1050px;
+  max-width: calc(100% - 200px);
+}
+
+.container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 899px) {
+  .container {
+    max-width: calc(100% - 50px);
+  }
+}
+
+.extracontainer {
+  margin: 0 auto;
+  width: 1250px;
+  max-width: 100%;
+}
+
+.extracontainer::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.extracontainer::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.grid-1 {
+  width: calc( 8.33333% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+@media screen and (max-width: 899px) {
+  .grid-1 .grid-1 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .grid-1 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.grid-2 {
+  width: calc( 16.66667% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+@media screen and (max-width: 899px) {
+  .grid-2 .grid-2 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .grid-2 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.grid-3 {
+  width: calc( 25% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+@media screen and (max-width: 899px) {
+  .grid-3 .grid-3 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .grid-3 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.grid-4 {
+  width: calc( 33.33333% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+@media screen and (max-width: 899px) {
+  .grid-4 .grid-4 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .grid-4 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.grid-5 {
+  width: calc( 41.66667% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+@media screen and (max-width: 899px) {
+  .grid-5 .grid-5 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .grid-5 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.grid-6 {
+  width: calc( 50% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+@media screen and (max-width: 899px) {
+  .grid-6 .grid-6 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .grid-6 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.grid-7 {
+  width: calc( 58.33333% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+@media screen and (max-width: 899px) {
+  .grid-7 .grid-7 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .grid-7 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.grid-8 {
+  width: calc( 66.66667% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+@media screen and (max-width: 899px) {
+  .grid-8 .grid-8 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .grid-8 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.grid-9 {
+  width: calc( 75% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+@media screen and (max-width: 899px) {
+  .grid-9 .grid-9 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .grid-9 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.grid-10 {
+  width: calc( 83.33333% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+@media screen and (max-width: 899px) {
+  .grid-10 .grid-10 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .grid-10 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.grid-11 {
+  width: calc( 91.66667% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+@media screen and (max-width: 899px) {
+  .grid-11 .grid-11 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .grid-11 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.grid-12 {
+  width: calc( 100% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+@media screen and (max-width: 899px) {
+  .grid-12 .grid-12 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .grid-12 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.header_1 {
+  background: #1b262c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header_1 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header_1 .container .logo {
+  width: 100px;
+}
+
+.header_1 .container .logo img {
+  width: 100%;
+}
+
+.header_1 .container .menu {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.header_1 .container .menu::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.header_1 .container .menu::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.header_1 .container .menu .menuButton {
+  display: none;
+}
+
+.header_1 .container .menu .menuButton button {
+  background: none;
+  border: none;
+}
+
+.header_1 .container .menu .menuButton button * {
+  fill: #bbe1fa;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.header_1 .container .menu .menuButton button:hover * {
+  fill: #3282b8;
+}
+
+.header_1 .container .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header_1 .container .menu ul li {
+  margin-left: 20px;
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+}
+
+.header_1 .container .menu ul li a {
+  color: #bbe1fa;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.header_1 .container .menu ul li a:hover {
+  color: #3282b8;
+}
+
+.header_1 .container .menu ul .close {
+  display: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header_1 .container .menu ul .close button {
+  background: none;
+  border: none;
+}
+
+.header_1 .container .menu ul .close button * {
+  fill: #bbe1fa;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.header_1 .container .menu ul .close button:hover * {
+  fill: #3282b8;
+}
+
+@media screen and (max-width: 899px) {
+  .header_1 .container .menu .menuButton {
+    display: block;
+    float: right;
+  }
+  .header_1 .container .menu ul {
+    display: none;
+  }
+  .header_1 .container .menu .menuVisible {
+    display: block;
+    position: fixed;
+    background: #1b262c;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding: 20px;
+  }
+  .header_1 .container .menu .menuVisible li {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: right;
+  }
+  .header_1 .container .menu .menuVisible .close {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+/*# sourceMappingURL=style.css.map */
