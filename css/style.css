@@ -1110,4 +1110,82 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
     display: flex;
   }
 }
+
+.banner_1 {
+  background: url("https://images.unsplash.com/photo-1582448066439-d221b9e3ea58?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=daniel-olah-nvezYkvyyNk-unsplash.jpg&w=1920");
+  background-position: center;
+  background-size: cover;
+}
+
+.banner_1 .container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.banner_1 .container .left h1 {
+  font-size: 45px;
+  font-family: "Space Mono", monospace;
+  color: #f9f7f7;
+  margin-bottom: 40px;
+}
+
+.banner_1 .container .left p {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  color: #f9f7f7;
+  margin-bottom: 80px;
+  max-width: 500px;
+}
+
+.banner_1 .container .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.banner_1 .container .right p {
+  text-align: left;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  color: #f9f7f7;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.banner_1 .container .right .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+}
+
+.banner_1 .container .right .input input {
+  font-size: 16px;
+  padding: 10px;
+  font-family: "Space Mono", monospace;
+  color: #1b262c;
+  border: none;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.banner_1 .container .right .input button {
+  border: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  font-family: "Space Mono", monospace;
+  color: #f9f7f7;
+  background: #1b262c;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
