@@ -1315,4 +1315,22 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
   background: #1b262c;
   cursor: pointer;
 }
+
+.banner_5 {
+  background: url("https://images.unsplash.com/photo-1582448066439-d221b9e3ea58?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=daniel-olah-nvezYkvyyNk-unsplash.jpg&w=1920");
+  background-position: center;
+  background-size: cover;
+}
+
+.banner_5 .container {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  text-align: center;
+}
+
+.banner_5 .container h1 {
+  font-size: 45px;
+  font-family: "Space Mono", monospace;
+  color: #f9f7f7;
+}
 /*# sourceMappingURL=style.css.map */
