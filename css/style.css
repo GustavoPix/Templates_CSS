@@ -1226,4 +1226,40 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
   background: #1b262c;
   cursor: pointer;
 }
+
+.banner_3 {
+  background: url("https://images.unsplash.com/photo-1582448066439-d221b9e3ea58?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=daniel-olah-nvezYkvyyNk-unsplash.jpg&w=1920");
+  background-position: center;
+  background-size: cover;
+}
+
+.banner_3 .container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.banner_3 .container h1 {
+  font-size: 45px;
+  font-family: "Space Mono", monospace;
+  color: #f9f7f7;
+  margin-bottom: 40px;
+}
+
+.banner_3 .container p {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  color: #f9f7f7;
+  margin-bottom: 80px;
+  max-width: 500px;
+}
+
+.banner_3 .container button {
+  border: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  font-family: "Space Mono", monospace;
+  color: #f9f7f7;
+  background: #1b262c;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
