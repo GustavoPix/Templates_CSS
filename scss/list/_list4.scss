@@ -34,17 +34,17 @@
             }
             @include responsive('small')
             {
-                margin-bottom: $space_medium;
+                width: 100%;
             }
         }
         .color1{
             background: $color1;
         }
         .color2{
-            background: $color1;
+            background: $color2;
         }
         .color3{
-            background: $color1;
+            background: $color3;
         }
     }
 }

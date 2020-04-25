@@ -1495,7 +1495,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
 
 @media screen and (max-width: 899px) {
   .list_4 .container > div {
-    margin-bottom: 40px;
+    width: 100%;
   }
 }
 
@@ -1504,10 +1504,10 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
 }
 
 .list_4 .container .color2 {
-  background: #bbe1fa;
+  background: #3282b8;
 }
 
 .list_4 .container .color3 {
-  background: #bbe1fa;
+  background: #0f4c75;
 }
 /*# sourceMappingURL=style.css.map */
