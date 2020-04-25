@@ -1,0 +1,26 @@
+.list_2{
+    .container{
+        padding-top: $space_medium;
+        padding-bottom: $space_medium;
+        > div{
+            text-align: center;
+            h3{
+                margin-bottom: $space_small;
+                font-family: $font1;
+                font-size: $font2;
+                color: $black1;
+            }
+            p{
+                font-family: $font2;
+                color: $black1;
+                font-size: $font1;
+                max-width: 500px;
+                margin: 0 auto;
+            }
+            @include responsive('small')
+            {
+                margin-bottom: $space_medium;
+            }
+        }
+    }
+}
