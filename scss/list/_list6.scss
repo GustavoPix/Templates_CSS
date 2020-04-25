@@ -1,0 +1,39 @@
+.list_6{
+    .container{
+        padding-top: $space_medium;
+        padding-bottom: $space_medium;
+        > div{
+            text-align: center;
+            padding: $space_small;
+            margin-right: 0;
+            margin-left: 0;
+            width: 33.333%;
+            h3{
+                margin-bottom: $space_small;
+                font-family: $font1;
+                font-size: $font2;
+                color: $black1;
+            }
+            p{
+                font-family: $font2;
+                color: $black1;
+                font-size: $font1;
+                max-width: 500px;
+                margin: 0 auto;
+            }
+            @include responsive('small')
+            {
+                width: 100%;
+            }
+        }
+        .color1{
+            background: $color1;
+        }
+        .color2{
+            background: $color2;
+        }
+        .color3{
+            background: $color3;
+        }
+    }
+}

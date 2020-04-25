@@ -1569,4 +1569,50 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
 .list_5 .container .color3 {
   background: #0f4c75;
 }
+
+.list_6 .container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.list_6 .container > div {
+  text-align: center;
+  padding: 20px;
+  margin-right: 0;
+  margin-left: 0;
+  width: 33.333%;
+}
+
+.list_6 .container > div h3 {
+  margin-bottom: 20px;
+  font-family: "Space Mono", monospace;
+  font-size: "Lato", sans-serif;
+  color: #393e46;
+}
+
+.list_6 .container > div p {
+  font-family: "Lato", sans-serif;
+  color: #393e46;
+  font-size: "Space Mono", monospace;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 899px) {
+  .list_6 .container > div {
+    width: 100%;
+  }
+}
+
+.list_6 .container .color1 {
+  background: #bbe1fa;
+}
+
+.list_6 .container .color2 {
+  background: #3282b8;
+}
+
+.list_6 .container .color3 {
+  background: #0f4c75;
+}
 /*# sourceMappingURL=style.css.map */
