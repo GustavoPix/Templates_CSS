@@ -1,0 +1,47 @@
+.photoDestaque_3{
+    .container{
+        position: relative;
+    }
+    .img{
+        position: absolute;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.5;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .content{
+        float: right;
+        padding-top: $space_big;
+        padding-bottom: $space_big;
+        text-align: center;
+        padding-left: $space_small;
+        padding-right: $space_small;
+        
+        h2{
+            font-family: $font1;
+            font-style: $font-size3;
+            color: $black1;
+            margin-bottom: $space_small;
+        }
+        h3{
+            font-family: $font1;
+            font-style: $font-size2;
+            color: $black1;
+            margin-bottom: $space_medium;
+        }
+        p{
+            font-family: $font2;
+            font-style: $font-size1;
+            color: $black1;
+            margin-bottom: $space_medium;
+            line-height: 1.5;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+    }
+}
