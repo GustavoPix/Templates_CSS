@@ -1783,4 +1783,54 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
   max-width: 500px;
   margin: 0 auto;
 }
+
+.photoDestaque_4 .container {
+  position: relative;
+  text-align: center;
+}
+
+.photoDestaque_4 .container h2 {
+  padding-top: 80px;
+  font-family: "Space Mono", monospace;
+  font-style: 35px;
+  color: #393e46;
+  margin-bottom: 20px;
+}
+
+.photoDestaque_4 .container h3 {
+  font-family: "Space Mono", monospace;
+  font-style: 21px;
+  color: #393e46;
+  margin-bottom: 40px;
+}
+
+.photoDestaque_4 .img {
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.photoDestaque_4 .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.photoDestaque_4 .content {
+  float: right;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.photoDestaque_4 .content p {
+  font-family: "Lato", sans-serif;
+  font-style: 16px;
+  color: #393e46;
+  margin-bottom: 40px;
+  line-height: 1.5;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
 /*# sourceMappingURL=style.css.map */
