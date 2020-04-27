@@ -1,0 +1,47 @@
+.photoDestaque_1{
+    .container{
+        position: relative;
+    }
+    .img{
+        position: absolute;
+        height: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        @include responsive('small'){
+            z-index: -1;
+            opacity: 0.5;
+        }
+    }
+    .content{
+        float: right;
+        padding-top: $space_big;
+        padding-bottom: $space_big;
+        @include responsive('small'){
+            padding-left: $space_small;
+            padding-right: $space_small;
+        }
+        h2{
+            font-family: $font1;
+            font-style: $font-size3;
+            color: $black1;
+            margin-bottom: $space_small;
+        }
+        h3{
+            font-family: $font1;
+            font-style: $font-size2;
+            color: $black1;
+            margin-bottom: $space_medium;
+        }
+        p{
+            font-family: $font2;
+            font-style: $font-size1;
+            color: $black1;
+            margin-bottom: $space_medium;
+            line-height: 1.5;
+        }
+
+    }
+}

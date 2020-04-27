@@ -1615,4 +1615,62 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
 .list_6 .container .color3 {
   background: #0f4c75;
 }
+
+.photoDestaque_1 .container {
+  position: relative;
+}
+
+.photoDestaque_1 .img {
+  position: absolute;
+  height: 100%;
+}
+
+.photoDestaque_1 .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 899px) {
+  .photoDestaque_1 .img {
+    z-index: -1;
+    opacity: 0.5;
+  }
+}
+
+.photoDestaque_1 .content {
+  float: right;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 899px) {
+  .photoDestaque_1 .content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.photoDestaque_1 .content h2 {
+  font-family: "Space Mono", monospace;
+  font-style: 35px;
+  color: #393e46;
+  margin-bottom: 20px;
+}
+
+.photoDestaque_1 .content h3 {
+  font-family: "Space Mono", monospace;
+  font-style: 21px;
+  color: #393e46;
+  margin-bottom: 40px;
+}
+
+.photoDestaque_1 .content p {
+  font-family: "Lato", sans-serif;
+  font-style: 16px;
+  color: #393e46;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
 /*# sourceMappingURL=style.css.map */
