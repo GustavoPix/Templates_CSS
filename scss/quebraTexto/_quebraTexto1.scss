@@ -22,9 +22,13 @@
         color: $black1;
         margin-bottom: $space_medium;
     }
-    h3{
-        font-family: $font1;
-        font-style: $font-size2;
+    p{
+        font-family: $font2;
+        font-style: $font-size1;
         color: $black1;
+        max-width: 500px;
+        margin: 0 auto;
+        float: none;
+        line-height: 1.5;
     }
 }
