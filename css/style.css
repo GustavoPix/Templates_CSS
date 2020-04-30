@@ -1941,6 +1941,27 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
   margin-bottom: 40px;
 }
 
+._quebraTexto_4 {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+._quebraTexto_4 h1 {
+  font-family: "Space Mono", monospace;
+  font-style: 35px;
+  color: #393e46;
+  margin-bottom: 40px;
+}
+
+._quebraTexto_4 h3 {
+  font-family: "Space Mono", monospace;
+  font-style: 21px;
+  color: #393e46;
+  margin-bottom: 40px;
+}
+
 ._quebraTexto_6 {
   position: relative;
   padding-top: 80px;
