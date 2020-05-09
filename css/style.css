@@ -2294,4 +2294,112 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
     margin-bottom: 20px;
   }
 }
+
+.formulario_5 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.formulario_5 h2 {
+  font-family: "Space Mono", monospace;
+  font-style: 35px;
+  color: #393e46;
+  margin-bottom: 50px;
+}
+
+.formulario_5 .row {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.formulario_5 .row label {
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  font-style: 16px;
+  color: #393e46;
+  margin-bottom: 10px;
+}
+
+.formulario_5 .row input {
+  width: 100%;
+  font-family: "Space Mono", monospace;
+  font-style: 16px;
+  color: #393e46;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 1px solid #bbe1fa;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  border-radius: 3px;
+}
+
+.formulario_5 .row input:hover, .formulario_5 .row input:focus {
+  outline: none;
+  border: 1px solid #3282b8;
+}
+
+.formulario_5 button {
+  font-family: "Space Mono", monospace;
+  font-style: 16px;
+  color: #393e46;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 1px solid #3282b8;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  border-radius: 3px;
+  margin: 0 auto;
+  display: block;
+  background: #f9f7f7;
+  cursor: pointer;
+}
+
+.formulario_5 button:hover, .formulario_5 button:focus {
+  outline: none;
+  background: #3282b8;
+  color: #f9f7f7;
+}
+
+.formulario_5 .contato {
+  position: relative;
+}
+
+.formulario_5 .contato p {
+  font-family: "Lato", sans-serif;
+  font-style: 16px;
+  color: #393e46;
+  line-height: 1.5;
+}
+
+.formulario_5 .img {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.formulario_5 .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1343px) {
+  .formulario_5 .form .grid-6 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .formulario_5 .contato {
+    margin-bottom: 20px;
+  }
+  .formulario_5 > .img {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
