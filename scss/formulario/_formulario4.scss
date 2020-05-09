@@ -1,0 +1,79 @@
+.formulario_4{
+    padding-top: $space_big;
+    padding-bottom: $space_big;
+    h2{
+        font-family: $font1;
+        font-style: $font-size3;
+        color: $black1;
+        margin-bottom: $space_small + 30px;
+    }
+    .row{
+        width: 100%;
+        margin-bottom: 20px;
+        label{
+            width: 100%;
+            font-family: $font2;
+            font-style: $font-size1;
+            color: $black1;
+            margin-bottom: 10px;
+        }
+        input{
+            width: 100%;
+            font-family: $font1;
+            font-style: $font-size1;
+            color: $black1;
+            margin-bottom: 5px;
+            padding: 10px;
+            border: 1px solid $color1;
+            transition: $transition;
+            border-radius: 3px;
+            
+            &:hover, &:focus{
+                outline: none;
+                border: 1px solid $color2;
+
+            }
+        }
+    }
+    button{
+        font-family: $font1;
+        font-style: $font-size1;
+        color: $black1;
+        margin-bottom: 5px;
+        padding: 10px;
+        border: 1px solid $color2;
+        transition: $transition;
+        border-radius: 3px;
+        margin: 0 auto;
+        display: block;
+        background: none;
+        cursor: pointer;
+        &:hover, &:focus{
+            outline: none;
+            background: $color2;
+            color: $white1;
+        }
+    }
+    .contato{
+        p{
+            font-family: $font2;
+            font-style: $font-size1;
+            color: $black1;
+            line-height: 1.5;
+        }
+    }
+    @include responsive('hd')
+    {
+        .form{
+            .grid-6{
+                width: 100%;
+            }
+        }
+    }
+    @include responsive('small')
+    {
+        .contato{
+            margin-bottom: $space_small;
+        }
+    }
+}
