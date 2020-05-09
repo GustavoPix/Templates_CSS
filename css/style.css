@@ -1999,4 +1999,62 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
   color: #393e46;
   margin-bottom: 40px;
 }
+
+.formulario_1 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.formulario_1 .row {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.formulario_1 .row label {
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  font-style: 16px;
+  color: #393e46;
+  margin-bottom: 10px;
+}
+
+.formulario_1 .row input {
+  width: 100%;
+  font-family: "Space Mono", monospace;
+  font-style: 16px;
+  color: #393e46;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 1px solid #bbe1fa;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  border-radius: 3px;
+}
+
+.formulario_1 .row input:hover, .formulario_1 .row input:focus {
+  outline: none;
+  border: 1px solid #3282b8;
+}
+
+.formulario_1 button {
+  font-family: "Space Mono", monospace;
+  font-style: 16px;
+  color: #393e46;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 1px solid #3282b8;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  border-radius: 3px;
+  margin: 0 auto;
+  display: block;
+  background: none;
+  cursor: pointer;
+}
+
+.formulario_1 button:hover, .formulario_1 button:focus {
+  outline: none;
+  background: #3282b8;
+  color: #f9f7f7;
+}
 /*# sourceMappingURL=style.css.map */
