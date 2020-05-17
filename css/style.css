@@ -2449,4 +2449,69 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.footer_2 {
+  background: #1b262c;
+}
+
+.footer_2 .footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer_2 .footer .frase {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.footer_2 .footer .frase p {
+  color: #f9f7f7;
+  font-family: "Lato", sans-serif;
+  font-style: 16px;
+}
+
+.footer_2 .footer .social {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer_2 .footer .social li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer_2 .footer .social li a * {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.footer_2 .footer .social li a:hover * {
+  fill: #bbe1fa;
+}
+
+.footer_2 .copyright {
+  background: #222831;
+}
+
+.footer_2 .copyright a {
+  color: #f9f7f7;
+  font-family: "Space Mono", monospace;
+  font-style: 16px;
+  margin: 0 auto;
+  display: table;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 /*# sourceMappingURL=style.css.map */
