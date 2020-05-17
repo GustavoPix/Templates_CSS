@@ -2402,4 +2402,51 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
     width: 100%;
   }
 }
+
+.footer_1 .footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #1b262c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer_1 .footer .social {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer_1 .footer .social li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer_1 .footer .social li a * {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.footer_1 .footer .social li a:hover * {
+  fill: #bbe1fa;
+}
+
+.footer_1 .copyright {
+  background: #222831;
+}
+
+.footer_1 .copyright a {
+  color: #f9f7f7;
+  font-family: "Space Mono", monospace;
+  font-style: 16px;
+  margin: 0 auto;
+  display: table;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 /*# sourceMappingURL=style.css.map */
