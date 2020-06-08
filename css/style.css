@@ -2612,4 +2612,23 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
   margin-bottom: 80px;
   max-width: 800px;
 }
+
+.titulo_texto_2 {
+  padding-top: 80px;
+}
+
+.titulo_texto_2 > div .titulo {
+  font-family: "Space Mono", monospace;
+  font-style: 35px;
+  color: #393e46;
+  margin-bottom: 40px;
+}
+
+.titulo_texto_2 > div p {
+  font-family: "Space Mono", monospace;
+  font-style: 21px;
+  color: #393e46;
+  margin-bottom: 80px;
+  max-width: 800px;
+}
 /*# sourceMappingURL=style.css.map */
