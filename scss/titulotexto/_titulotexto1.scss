@@ -1,0 +1,17 @@
+.titulo_texto_1{
+    padding-top: $space_big;
+    >div{
+        .titulo{
+            font-family: $font1;
+            font-style: $font-size3;
+            color: $black1;
+            margin-bottom: $space_medium;
+        }
+        p{
+            font-family: $font1;
+            font-style: $font-size2;
+            color: $black1;
+            margin-bottom: $space_big;
+        }
+    }
+}
