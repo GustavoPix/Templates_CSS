@@ -2692,4 +2692,30 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
     opacity: 0.5;
   }
 }
+
+.texto_longo_1 {
+  padding-top: 80px;
+}
+
+.texto_longo_1 > div .titulo {
+  font-family: "Space Mono", monospace;
+  font-style: 35px;
+  color: #393e46;
+  margin-bottom: 40px;
+}
+
+.texto_longo_1 > div .subtitulo {
+  font-family: "Space Mono", monospace;
+  font-style: 21px;
+  color: #393e46;
+  margin-bottom: 40px;
+}
+
+.texto_longo_1 > div p {
+  font-family: "Space Mono", monospace;
+  font-style: 21px;
+  color: #393e46;
+  margin-bottom: 80px;
+  max-width: 800px;
+}
 /*# sourceMappingURL=style.css.map */
