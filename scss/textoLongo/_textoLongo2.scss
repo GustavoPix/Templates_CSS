@@ -1,0 +1,41 @@
+.texto_longo_2{
+    padding-top: $space_big;
+    position: relative;
+    >div{
+        .titulo{
+            font-family: $font1;
+            font-style: $font-size3;
+            color: $black1;
+            margin-bottom: $space_medium;
+        }
+        .subtitulo{
+            font-family: $font1;
+            font-style: $font-size2;
+            color: $black1;
+            margin-bottom: $space_medium;
+        }
+        p{
+            font-family: $font1;
+            font-style: $font-size2;
+            color: $black1;
+            margin-bottom: $space_big;
+            max-width: 800px;
+        }
+    }
+    .img{
+        position: absolute;
+        height: 100%;
+        right: 0;
+        width: 50%;
+        top: 0;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        @include responsive('small'){
+            z-index: -1;
+            opacity: 0.5;
+        }
+    }
+}

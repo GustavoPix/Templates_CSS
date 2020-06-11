@@ -2718,4 +2718,53 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
   margin-bottom: 80px;
   max-width: 800px;
 }
+
+.texto_longo_2 {
+  padding-top: 80px;
+  position: relative;
+}
+
+.texto_longo_2 > div .titulo {
+  font-family: "Space Mono", monospace;
+  font-style: 35px;
+  color: #393e46;
+  margin-bottom: 40px;
+}
+
+.texto_longo_2 > div .subtitulo {
+  font-family: "Space Mono", monospace;
+  font-style: 21px;
+  color: #393e46;
+  margin-bottom: 40px;
+}
+
+.texto_longo_2 > div p {
+  font-family: "Space Mono", monospace;
+  font-style: 21px;
+  color: #393e46;
+  margin-bottom: 80px;
+  max-width: 800px;
+}
+
+.texto_longo_2 .img {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  width: 50%;
+  top: 0;
+}
+
+.texto_longo_2 .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 899px) {
+  .texto_longo_2 .img {
+    z-index: -1;
+    opacity: 0.5;
+  }
+}
 /*# sourceMappingURL=style.css.map */
