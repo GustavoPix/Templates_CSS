@@ -2948,4 +2948,49 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
   font-size: 16px;
   color: #393e46;
 }
+
+.produtos_2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.produtos_2 .produto {
+  margin-bottom: 40px;
+}
+
+.produtos_2 .titulo {
+  font-family: "Space Mono", monospace;
+  font-size: 35px;
+  color: #393e46;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.produtos_2 .img {
+  margin-bottom: 10px;
+  height: 300px;
+}
+
+.produtos_2 .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.produtos_2 .nome {
+  font-family: "Space Mono", monospace;
+  font-size: 21px;
+  color: #393e46;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.produtos_2 .preco {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #393e46;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
