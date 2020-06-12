@@ -2993,4 +2993,47 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
   color: #393e46;
   text-align: center;
 }
+
+.produtos_3 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.produtos_3 .produto {
+  margin-bottom: 40px;
+}
+
+.produtos_3 .titulo {
+  font-family: "Space Mono", monospace;
+  font-size: 35px;
+  color: #393e46;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.produtos_3 .img {
+  margin-bottom: 10px;
+  height: 400px;
+}
+
+.produtos_3 .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.produtos_3 .nome {
+  font-family: "Space Mono", monospace;
+  font-size: 21px;
+  color: #393e46;
+  margin-bottom: 10px;
+}
+
+.produtos_3 .preco {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #393e46;
+}
 /*# sourceMappingURL=style.css.map */
