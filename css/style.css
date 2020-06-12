@@ -2767,4 +2767,29 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li, a, div, img, button, input {
     opacity: 0.5;
   }
 }
+
+.galeria_1 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.galeria_1 .titulo {
+  font-family: "Space Mono", monospace;
+  font-style: 35px;
+  color: #393e46;
+  margin-bottom: 40px;
+}
+
+.galeria_1 .img {
+  margin-bottom: 20px;
+  height: 250px;
+}
+
+.galeria_1 .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=style.css.map */
